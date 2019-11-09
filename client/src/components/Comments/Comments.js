@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { fetchPosts } from '/Users/TiffN/Desktop/wedding-planner-application/client/src/actions/postActions.js'
+// import { fetchPosts } from '/client/src/actions/postActions.js'
+
+import {fetchPosts} from "../../actions/postActions"
+
 
 import './Comments.css'
 
