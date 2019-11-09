@@ -1,6 +1,6 @@
 import { createStore, applyMiddleware, compose } from 'redux'
 import thunk from 'redux-thunk'
-import rootReducer from '/Users/TiffN/Desktop/wedding-planner-application/client/src/reducers/index.js'
+import rootReducer from '../../reducers/index'
 
 const initialState = {};
 

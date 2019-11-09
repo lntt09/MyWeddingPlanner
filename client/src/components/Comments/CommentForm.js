@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { createPost } from '/Users/TiffN/Desktop/wedding-planner-application/client/src/actions/postActions.js'
+import { createPost } from '../../actions/postActions'
 
 import './CommentForm.css';
 
