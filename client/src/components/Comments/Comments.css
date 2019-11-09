@@ -1,0 +1,18 @@
+.allthecomments {
+    background-image: linear-gradient(lavender, white);
+    width: 100%;
+    height: auto;
+    border: 1px solid rgb(202, 57, 202);
+    border-radius: 10px;
+    text-align: center;
+    /* margin-left: 3%; */
+}
+.allthecomments h2{
+    font-family: cursive;
+}
+
+.commentItems{
+    overflow: scroll;
+}
+
+

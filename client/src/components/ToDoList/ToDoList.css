@@ -1,0 +1,66 @@
+.todoListMain{
+  background-image: linear-gradient(lavender,white);
+  width: 100%;
+  height: auto;
+  border: 1px solid rgb(202, 57, 202);
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 3%;
+  margin: auto;
+  padding: 10px;
+}
+.todo_title{
+  text-align: center;
+  font-family: cursive;
+  font-size: 12pt;
+  text-decoration: underline;
+  color: #003399;
+}
+.todoListMain .header input {
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    border: 2px solid #FFF;
+    width: auto;
+    text-align: center;
+
+  }
+.todoListMain .header button {
+  padding: 5px;
+  font-size: 10px;
+  margin: 5px;
+  margin-right: 0px;
+  background-color: rgb(146, 81, 146);
+  color: #FFF;
+  border: 2px solid purple;
+  border-radius: 15px;
+  ;
+}
+.todoListMain .header button:hover {
+  background-color: #003399;
+  border: 2px solid #003399;
+  cursor: pointer;
+}
+.todoListMain .theList {
+  list-style: none;
+  padding-left: auto;
+  width: auto;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 10pt;
+} 
+.todoListMain .theList li {
+  color: #333;
+  background-color: rgba(255,255,255,.5);
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  transition: background-color .2s ease-out;
+}
+
+.todoListMain .theList li:hover {
+  background-color: pink;
+  cursor: pointer;
+}
+ul.theList {
+  padding: 0;
+}
